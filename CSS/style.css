@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-color: maroon;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/* FIXING THE PICTURE*/
+.cover{
+    width: 45%;
+    height: 100vh;
+    font-size: large;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../img/hl.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* Editing particular letter*/
+.cover > header > h1 > span{
+
+    font-size: 1.5em;
+}
+/*changing font*/
+.cover > header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.60em;
+    color:burlywood;
+    letter-spacing: 3em;
+}
+
+.part1 > h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color:burlywood;
+    letter-spacing: 0.4em;
+}
+
+.part1 > p{
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+    font-size: 3.5em;
+    letter-spacing: 0.4em;
+
+}
+
+.part1 p+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6em;
+    color:burlywood;
+    letter-spacing: 0.4em;
+}
+
+.part2 li{
+    padding: 1%;
+}
+
+.part2 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 0.6em;
+    font-weight: 700;
+    letter-spacing: 0.4em;
+    margin-top: 10em;
+}
+
+.footer p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(175, 138, 93);
+    font-size: 0.6em;
+    font-weight: 400;
+
+}
+
+
